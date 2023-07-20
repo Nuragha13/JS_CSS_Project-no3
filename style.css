@@ -52,7 +52,7 @@ body {
     height: 100px;
     background: transparent;
     border: 0;
-    font-size: 27px;
+    font-size: 25px;
     color: #fff;
 }
 
@@ -77,13 +77,13 @@ body {
 
 nav {
     position: fixed;
-    bottom: 10px;
+    bottom: 40px;
     left: 0;
     z-index: 100;
 }
 
 nav ul {
-    list-style: none;
+    list-style-type: none;
     padding-left: 30px;
 }
 
@@ -96,7 +96,7 @@ nav ul li {
 }
 
 nav ul li i {
-    font-size: 15px;
+    font-size: 20px;
     margin-right: 10px;
 }
 
@@ -123,12 +123,12 @@ nav ul li + li + li {
     margin: 0;
 }
 
-.content {
+.content small {
     color: #777;
     font-style: italic;
 }
 
 .content p {
-    color: #444;
+    color: #333;
     line-height: 1.5;
 }
